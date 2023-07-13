@@ -19,8 +19,7 @@
       "name": "Launch Without Building",
       "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}/src/index.ts",
-      "outFiles": ["${workspaceFolder}/out/**/*.js"],
-      "preLaunchTask": "Build"
+      "outFiles": ["${workspaceFolder}/out/**/*.js"]
     }
   ]
 }
