@@ -1,10 +1,15 @@
 # Docker-node project skeleton
 
-An template for a nodejs project that includes
+This template is an extension of my [typescript template](https://github.com/ImLvna/dockernode)
+
+An template for a discord bot that includes
+
+- Both slash and prefix commands
 - Docker support
 - A deploy github workflow
 
 ## Github/Woodpecker secrets
+
 - `SSH_PRIVATE_KEY`
 - `SERVER_IP`
 - `SSH_USER`

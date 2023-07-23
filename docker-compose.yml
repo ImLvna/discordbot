@@ -1,9 +1,10 @@
 version: '3'
 services:
-  nodeproject:
-    container_name: nodeproject
+  discordbot:
+    container_name: discordbot
     build: .
-    env_file: .env
+    volumes:
+      - ./config.json:/home/runner/config.json:rw
     healthcheck:
       test: curl --fail localhost || exit 1
       interval: 1s

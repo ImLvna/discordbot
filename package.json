@@ -5,6 +5,7 @@
     "prod": "node ./out/index.js"
   },
   "dependencies": {
+    "discord.js": "^14.11.0",
     "typescript": "^5.1.6"
   },
   "devDependencies": {
