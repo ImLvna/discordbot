@@ -17,6 +17,8 @@ VOLUME [ "/home/runner" ]
 
 COPY --chown=runner:runner  . .
 
+RUN yarn run build
+
 ENV ENABLE_HEALTHCHECK=true
 
 ENTRYPOINT [ "yarn", "run", "prod" ]
