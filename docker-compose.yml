@@ -1,6 +1,7 @@
 version: '3'
 services:
   nodeproject:
+    container_name: nodeproject
     build: .
     env_file: .env
     healthcheck:
