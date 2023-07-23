@@ -1,4 +1,4 @@
-# Docker-node project skeleton
+# Typescript discord bot project skeleton
 
 This template is an extension of my [typescript template](https://github.com/ImLvna/dockernode)
 
